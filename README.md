@@ -14,7 +14,7 @@ Run `npm run build`. Deploy the resulting `dist/` directory to any static hostin
 
 ## GitHub Pages deployment
 
-This project is ready for GitHub Pages. The Vite config uses the repository name as the base path, so the site can be published from GitHub Pages without broken asset URLs.
+This project can also be published to GitHub Pages. The Vite config uses a root base path (`/`), which is correct for Netlify or a custom domain; if publishing to `<username>.github.io/<repo>/`, set `base` in `vite.config.js` to `/<repo>/` before building.
 
 1. Push the repository to GitHub.
 2. In GitHub, open the repository settings and enable GitHub Pages.
