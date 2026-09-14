@@ -1,0 +1,1 @@
+{"functions":[{"bundler":"nft","buildData":{"runtimeAPIVersion":1},"mainFile":"/opt/build/repo/netlify/functions/submit-admission.js","name":"submit-admission","priority":10,"runtimeVersion":"nodejs24.x","path":"/opt/build/repo/.netlify/functions/submit-admission.zip","runtime":"js"}],"system":{"arch":"x64","platform":"linux"},"timestamp":1789376198868,"version":1}
